@@ -5,16 +5,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/t3rminus/spreedly-client.git"
+    "url": "https://github.com/Vishalashah/spreedly-client.git"
   },
   "keywords": [
     "spreedly",
     "payments"
   ],
   "author": {
-    "name": "Kevin S",
-    "email": "k3vin.net@gmail.com",
-    "url": "http://bricklickrms.com"
+    "name": "Vishal Shah",
+    "email": "shah.vish@gmail.com"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test"

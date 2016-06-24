@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/vshah/Documents/product/spreedly-client',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/vshah/.npm/spreedly-client/0.1.2/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/vshah/.npm/spreedly-client/0.1.2/package.tgz',
+9 verbose tar pack   '/Users/vshah/Documents/product/spreedly-client' ]
+10 verbose tarball /Users/vshah/.npm/spreedly-client/0.1.2/package.tgz
+11 verbose folder /Users/vshah/Documents/product/spreedly-client
+12 info prepublish spreedly-client@0.1.2
+13 verbose addLocalTarball adding from inside cache /Users/vshah/.npm/spreedly-client/0.1.2/package.tgz
+14 silly cache afterAdd spreedly-client@0.1.2
+15 verbose afterAdd /Users/vshah/.npm/spreedly-client/0.1.2/package/package.json not in flight; writing
+16 verbose afterAdd /Users/vshah/.npm/spreedly-client/0.1.2/package/package.json written
+17 silly publish { name: 'spreedly-client',
+17 silly publish   version: '0.1.2',
+17 silly publish   description: 'Spreedly client for Node.js',
+17 silly publish   main: 'index.js',
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'https://github.com/t3rminus/spreedly-client.git' },
+17 silly publish   keywords: [ 'spreedly', 'payments' ],
+17 silly publish   author:
+17 silly publish    { name: 'Kevin S',
+17 silly publish      email: 'k3vin.net@gmail.com',
+17 silly publish      url: 'http://bricklickrms.com' },
+17 silly publish   scripts: { test: 'mocha test' },
+17 silly publish   license: 'MIT',
+17 silly publish   devDependencies: { chai: '^2.1.1', mocha: '^2.2.1' },
+17 silly publish   dependencies:
+17 silly publish    { bluebird: '^2.9.14',
+17 silly publish      humps: '^0.4.2',
+17 silly publish      lodash: '^3.5.0',
+17 silly publish      prequest: '0.0.3',
+17 silly publish      'tarot-js': '0.0.2',
+17 silly publish      xml2js: '^0.4.5' },
+17 silly publish   readme: '# Spreedly Client for Node.js [![Build Status](https://travis-ci.org/t3rminus/spreedly-client.svg?branch=master)](https://travis-ci.org/t3rminus/spreedly-client)\n\n[![NPM](https://nodei.co/npm/spreedly-client.png)](https://nodei.co/npm/spreedly-client/)\n\n## Introduction\nA Node.js library for working with the [Spreedly](https://spreedly.com/) API and credit card tokenization service.\n\nI\'ve tried to follow the [API](https://docs.spreedly.com/reference/api/v1/) as closely as possible.\nThis library provides methods for the most common functionality, with additional methods in development.\n\n_All_ Spreedly client methods support both an optional Node.js-style\n`function(err, result)` callback parameter, and _also_ return a \n[Bluebird promise](https://github.com/petkaantonov/bluebird), for maximum compatibility and utility.\n\n***\n\n## API\n\nView the full API documentation here: [https://github.com/t3rminus/spreedly-client/blob/master/API.md](https://github.com/t3rminus/spreedly-client/blob/master/API.md)\n',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   gitHead: 'e5f0a6f25a7c0365227626078809e091554c7cbb',
+17 silly publish   bugs: { url: 'https://github.com/t3rminus/spreedly-client/issues' },
+17 silly publish   homepage: 'https://github.com/t3rminus/spreedly-client',
+17 silly publish   _id: 'spreedly-client@0.1.2',
+17 silly publish   _shasum: '9cb5e88111ac2f569980146920b6b6b745bb0631',
+17 silly publish   _from: '.' }
+18 silly mapToRegistry name spreedly-client
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/spreedly-client
+22 verbose publish registryBase https://registry.npmjs.org/
+23 silly publish uploading /Users/vshah/.npm/spreedly-client/0.1.2/package.tgz
+24 verbose request uri https://registry.npmjs.org/spreedly-client
+25 verbose request sending authorization for write operation
+26 info attempt registry request try #1 at 11:42:05 PM
+27 verbose request using bearer token for auth
+28 verbose request id 08472ab2504e2d45
+29 http request PUT https://registry.npmjs.org/spreedly-client
+30 http 403 https://registry.npmjs.org/spreedly-client
+31 verbose headers { 'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '109',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Fri, 24 Jun 2016 03:42:06 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-atl6244-ATL',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1466739725.828482,VS0,VE416',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 verbose request invalidating /Users/vshah/.npm/registry.npmjs.org/spreedly-client on PUT
+33 error publish Failed PUT 403
+34 verbose stack Error: you do not have permission to publish "spreedly-client". Are you logged in as the correct user? : spreedly-client
+34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
+34 verbose stack     at Request.emit (events.js:110:17)
+34 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1239:14)
+34 verbose stack     at Request.emit (events.js:129:20)
+34 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1187:12)
+34 verbose stack     at IncomingMessage.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 403
+36 verbose pkgid spreedly-client
+37 verbose cwd /Users/vshah/Documents/product/spreedly-client
+38 error Darwin 16.0.0
+39 error argv "node" "/usr/local/bin/npm" "publish"
+40 error node v0.12.2
+41 error npm  v2.7.4
+42 error code E403
+43 error you do not have permission to publish "spreedly-client". Are you logged in as the correct user? : spreedly-client
+44 error If you need help, you may report this error at:
+44 error     <https://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]
