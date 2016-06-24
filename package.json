@@ -1,5 +1,5 @@
 {
-  "name": "spreedly-client",
+  "name": "node-spreedly",
   "version": "0.1.2",
   "description": "Spreedly client for Node.js",
   "main": "index.js",
