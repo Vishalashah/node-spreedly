@@ -1,6 +1,6 @@
 {
   "name": "node-spreedly",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Spreedly client for Node.js",
   "main": "index.js",
   "repository": {
