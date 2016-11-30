@@ -1,27 +1,57 @@
 {
-  "name": "node-spreedly",
-  "version": "1.1.1",
-  "description": "Spreedly client for Node.js",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Vishalashah/spreedly-client.git"
-  },
-  "keywords": [
-    "spreedly",
-    "payments"
+  "_args": [
+    [
+      {
+        "raw": "node-spreedly",
+        "scope": null,
+        "escapedName": "node-spreedly",
+        "name": "node-spreedly",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/vshah/Documents/Scripts/gateways"
+    ]
   ],
+  "_from": "node-spreedly@latest",
+  "_id": "node-spreedly@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/node-spreedly",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/node-spreedly-1.0.0.tgz_1471275388509_0.22728109499439597"
+  },
+  "_npmUser": {
+    "name": "vishalashah",
+    "email": "shah.vish@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "node-spreedly",
+    "scope": null,
+    "escapedName": "node-spreedly",
+    "name": "node-spreedly",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-spreedly/-/node-spreedly-1.0.0.tgz",
+  "_shasum": "9455dd50402451d5409ec90f6f52baad20a58527",
+  "_shrinkwrap": null,
+  "_spec": "node-spreedly",
+  "_where": "/Users/vshah/Documents/Scripts/gateways",
   "author": {
     "name": "Vishal Shah",
     "email": "shah.vish@gmail.com"
   },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^2.1.1",
-    "mocha": "^2.2.1"
+  "bugs": {
+    "url": "https://github.com/Vishalashah/spreedly-client/issues"
   },
   "dependencies": {
     "bluebird": "^2.9.14",
@@ -30,5 +60,40 @@
     "prequest": "0.0.3",
     "tarot-js": "0.0.2",
     "xml2js": "^0.4.5"
-  }
+  },
+  "description": "Spreedly client for Node.js",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9455dd50402451d5409ec90f6f52baad20a58527",
+    "tarball": "https://registry.npmjs.org/node-spreedly/-/node-spreedly-1.0.0.tgz"
+  },
+  "gitHead": "7400ec3cf28279add14f5c61a0f112b67f8f46bd",
+  "homepage": "https://github.com/Vishalashah/spreedly-client#readme",
+  "keywords": [
+    "spreedly",
+    "payments"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "vishalashah",
+      "email": "shah.vish@gmail.com"
+    }
+  ],
+  "name": "node-spreedly",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishalashah/spreedly-client.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "1.0.0"
 }
